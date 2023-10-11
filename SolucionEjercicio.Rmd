@@ -57,4 +57,9 @@ length(uniqueAnimals)
 uniqueAnimals %in% rownames(mammals)
 ```
 Son mamiferos
+
 + Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
+
+```{r}
+mammals[rownames(mammals) %in% uniqueAnimals,]
+```
