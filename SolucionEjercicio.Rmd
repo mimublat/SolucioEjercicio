@@ -8,7 +8,6 @@ date: "2023-10-11"
 Considera los conjuntos de datos mammals del paquete **MASS** y **Animals2** del paquete robustbase.
 
 + Mira la las características de ambos conjuntos usando la ayuda.
-Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 
 ```{r}
 library(MASS)
@@ -17,8 +16,24 @@ data('mammals')
 data('Animals2')
 ```
 
++ Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
+
+```{r}
+x <- mammals
+dim(x)
+head(x)
+tail(x)
+str(x)
+
+x <- Animals2
+dim(x)
+head(x)
+tail(x)
+str(x)
+```
+
 
 + Muestra los nombres de las filas y las columnas (rownames, colnames)
-Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos
++ Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos
 + Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 + Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
