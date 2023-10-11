@@ -1,5 +1,6 @@
 ---
-title: "SolucionEjercicio"
+title: "Solucion Ejercicio. Análisis exploratorio de datos"
+author: "Miguel Muñoz Blat"
 output: html_document
 date: "2023-10-11"
 ---
